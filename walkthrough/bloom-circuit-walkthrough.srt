@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:04,000
+A cozy connection puzzle. Watch the first garden come to life.
+
+2
+00:00:04,000 --> 00:00:08,000
+Connect all 16 tiles to the golden seed. Matching path openings carry the light through the garden.
+
+3
+00:00:08,000 --> 00:00:12,500
+The source stays put. Begin with the paths around it, then work your way outward.
+
+4
+00:00:12,500 --> 00:00:15,500
+A click or tap turns a tile clockwise. Watch the light respond as the connections change.
+
+5
+00:00:15,500 --> 00:00:19,000
+Undo restores the previous orientation. It counts as another turn, so use it when you need to retrace a move.
+
+6
+00:00:19,000 --> 00:00:23,000
+Right-click or Shift-click to rotate counterclockwise. A quarter turn can open a new path.
+
+7
+00:00:23,000 --> 00:00:27,500
+A hint fixes one tile in the right direction and locks it in place. Each hint reduces your garden score by 180 points.
+
+8
+00:00:27,500 --> 00:00:34,900
+Keep matching the path openings. The connected count shows your progress. Flowers bloom when the light reaches them.
+
+9
+00:00:34,900 --> 00:00:38,700
+There is no countdown. Pause stops the clock and gives you a moment to breathe.
+
+10
+00:00:38,700 --> 00:00:49,500
+Keep going until every tile is lit. These last turns join the lower paths and reach the final flower.
+
+11
+00:00:49,500 --> 00:00:57,000
+All 16 tiles now share the light. This demonstration used 17 turns and one hint.
+
+12
+00:00:57,000 --> 00:01:01,000
+Continue to Fern hollow. Later gardens expand from 4 × 4 to 5 × 5 and 6 × 6 boards.
+
+13
+00:01:01,000 --> 00:01:05,000
+Bring your start.ng character. Grow a garden. Save your best run.
