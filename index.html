@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12251f">
+  <meta name="description" content="A little light. A lot of life. Rotate the paths, connect every tile, and bring six quiet gardens into bloom.">
+  <meta property="og:title" content="Bloom Circuit">
+  <meta property="og:description" content="A cozy connection puzzle. Six gardens waiting for a little light.">
+  <meta property="og:image" content="./cover.png">
+  <title>Bloom Circuit — a little light, a lot of life</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header wrap">
+    <a href="./" class="brand" aria-label="Bloom Circuit home"><span class="brand-mark" aria-hidden="true">✳</span><span>BLOOM<span class="brand-light">CIRCUIT</span></span></a>
+    <div class="header-right">
+      <button id="sound" class="icon-button" aria-label="Turn sound on" aria-pressed="false" title="Sound">♫<span class="sound-label">Sound off</span></button>
+      <div class="profile" id="player-card">
+        <div class="face-wrap"><img id="player-face" alt="Your start.ng character" hidden><span id="guest-face" aria-hidden="true">✿</span></div>
+        <div class="profile-copy"><b id="player-name">Guest gardener</b><span id="player-account">Playing locally</span></div>
+        <a id="player-sign-in" class="sign-in" href="https://start.ng/">Sign in ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap layout">
+    <aside class="intro">
+      <div class="eyebrow"><span class="small-spark"></span> A QUIET LITTLE PUZZLE</div>
+      <h1>A little light.<br> A lot of <em>life.</em></h1>
+      <p class="lede">Untangle the paths.<br> Let the whole garden glow.</p>
+      <div class="how-to"><h2>How it grows</h2><ol><li><span>01</span><p><b>Turn a tile</b>Tap or click to rotate its path.</p></li><li><span>02</span><p><b>Follow the light</b>Connect paths to the golden seed.</p></li><li><span>03</span><p><b>Make it bloom</b>Light up every tile to grow the garden.</p></li></ol></div>
+      <div class="journey"><div class="section-label">YOUR SIX GARDENS <span id="journey-count">0 / 6</span></div><div id="journey-list"></div></div>
+      <p class="gentle-note">No countdown. No rush.<br>Good things take a little growing.</p>
+    </aside>
+
+    <section class="game-panel" aria-label="Bloom Circuit game">
+      <div class="game-heading"><div><div class="eyebrow" id="garden-number">GARDEN 01 / 06</div><h2 id="garden-name">First light</h2></div><span class="size-badge" id="garden-size">4 × 4</span></div>
+      <div class="stats"><div><span>CONNECTED</span><b><span id="connected">1</span><small id="tile-total"> / 16</small></b></div><div><span>TURNS</span><b id="moves">0</b></div><div><span>TIME</span><b id="timer">0:00</b></div><div><span>SCORE</span><b id="score">0</b></div></div>
+      <div class="board-surround"><div class="board-detail top-left" aria-hidden="true">✦</div><div class="board-detail bottom-right" aria-hidden="true">✦</div><div id="board" class="board" role="group" aria-label="Garden tiles"></div><div id="board-overlay" class="board-overlay"><span class="overlay-flower" aria-hidden="true">✳</span><div class="eyebrow">READY WHEN YOU ARE</div><h2>A garden awaits.</h2><p>Turn the paths. Share the light.<br>See what a little connection can do.</p><button id="start" class="primary">Let it grow <span>↗</span></button><span class="overlay-footnote">6 gardens · play at your own pace</span></div></div>
+      <div class="garden-footer"><span><i class="legend-seed"></i>Golden seed</span><span><i class="legend-path"></i>Connected path</span><span><i class="legend-flower"></i>Bloom</span></div>
+      <div class="game-controls"><button id="undo" class="secondary" disabled><span aria-hidden="true">↶</span> Undo</button><button id="hint" class="secondary" disabled><span aria-hidden="true">✧</span> Hint <small>−180 pts</small></button><button id="pause" class="secondary" disabled><span aria-hidden="true">Ⅱ</span> Pause</button><button id="new-run" class="text-button">New run ↗</button></div>
+      <p class="board-caption" id="garden-note">Every garden starts with a little spark.</p>
+      <p class="keyboard-note">Keyboard: arrow keys to explore · Enter to turn · Shift + Enter to turn back</p>
+    </section>
+
+    <aside class="right-sidebar">
+      <section class="score-card"><span class="eyebrow">YOUR PERSONAL BEST</span><div class="best-value" id="personal-best">—</div><p id="best-description">A fresh patch of possibility.</p><span class="little-vine" aria-hidden="true">⌁ ✿</span></section>
+      <section class="leaderboard"><div class="leaderboard-heading"><h2>The greenhouse</h2><button id="refresh-board" class="icon-button" aria-label="Refresh leaderboard">↻</button></div><p>Good company. Great gardens.</p><div class="board-columns"><span>GARDENER</span><span>SCORE</span></div><ol id="leaderboard-list"></ol><p class="leaderboard-status" id="leaderboard-status">Shared scores appear on start.ng.<br>For now, make yourself at home.</p><a class="leaderboard-link" id="leaderboard-sign-in" href="https://start.ng/">Sign in to save your run ↗</a></section>
+      <div class="field-note"><span>FIELD NOTE 001</span><p>“Everything is connected.<br>Some things just need<br>a quarter turn.”</p><span class="note-flower" aria-hidden="true">✳</span></div>
+    </aside>
+  </main>
+  <footer class="wrap footer"><span>Small puzzles. A softer pace.</span><a href="https://start.ng/" target="_blank" rel="noopener">Made to bloom on <b>start.ng ↗</b></a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal"><div id="modal-content"></div></dialog>
+  <script type="module" src="./game.mjs"></script>
+</body>
+</html>

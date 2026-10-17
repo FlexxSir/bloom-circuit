@@ -1,0 +1,9 @@
+{
+  "leaderboard": {
+    "stats": [
+      { "key": "gardens", "label": "Gardens grown", "order": "highest" },
+      { "key": "score", "label": "Bloom score", "order": "highest" },
+      { "key": "time", "label": "Growing time", "order": "lowest", "format": "time" }
+    ]
+  }
+}
