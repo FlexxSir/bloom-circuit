@@ -2,6 +2,16 @@
 
 A quiet connection puzzle for [start.ng](https://start.ng). Turn the paths, connect every tile to the golden seed, and bring six gardens into bloom.
 
+## Gameplay walkthrough
+
+[![Bloom Circuit gameplay walkthrough](walkthrough/bloom-circuit-walkthrough-poster.jpg)](walkthrough/bloom-circuit-walkthrough.mp4)
+
+A 65-second, 1080p walkthrough with captions, click highlights, soft music, and a complete first-garden solve.
+
+- [MP4 video](walkthrough/bloom-circuit-walkthrough.mp4)
+- [Offline player, chapters, and subtitles (ZIP)](walkthrough/bloom-circuit-walkthrough-pack.zip)
+- [All walkthrough files and instructions](walkthrough/README.md)
+
 ## Play
 
 - Click or tap a tile to turn it clockwise.
@@ -31,3 +41,4 @@ Commit the ready-to-play files to a public GitHub repository. Follow [the start.
 Created with the built-in imagegen tool, then encoded as an optimized 1600 × 1000 PNG for the platform's size limit. Final prompt:
 
 > Use case: stylized-concept. Create a polished 16:10 landscape cover image for a browser puzzle game called Bloom Circuit. Exact text: "BLOOM CIRCUIT" in bold clean ivory geometric lettering in the upper left, with small tagline "A LITTLE LIGHT. A LOT OF LIFE." below. Scene: an isometric square board with dark forest green tiles, gracefully curving mint-green luminous paths joining at tile edges like a circuit, branching from a golden glowing sun seed to small orange, pale yellow, and pink flowers at endpoints. At the right, miniature sculptural leaves and soft magical firefly particles. Sophisticated cozy game art, crisp shapes, subtle grain, dark near-black forest background, luminous lime and warm apricot accents. Board occupies bottom right with generous readable title area. Restrained, premium indie puzzle aesthetic. No people, no interface buttons, no logos or watermark. Output 1600x1000 or equivalent 16:10, suitable as cover.png.
+
